@@ -8,3 +8,9 @@ CREATE TABLE  Students_ss2 (
     FOREIGN KEY (classID) REFERENCES Classes (Class_ID)
     );
     
+
+USE ss2_SQL;
+CREATE TABLE Classes (
+	Class_ID INT PRIMARY KEY,
+    ClassName VARCHAR(50) NOT NULL,
+    Academic_year INT NOT NULL );
