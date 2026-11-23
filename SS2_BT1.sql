@@ -1,0 +1,10 @@
+CREATE SCHEMA NOT EXISTS ss2_SQL;
+
+USE ss2_SQL;
+
+CREATE TABLE students(
+	id INT PRIMARY KEY,
+    fullName VARCHAR(255) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    gender VARCHAR(10) NOT NULL
+);
